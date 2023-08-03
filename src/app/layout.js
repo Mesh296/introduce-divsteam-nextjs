@@ -1,6 +1,18 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Navbar from '@/components/navbar/page'
+import localFont from 'next/font/local'
+
+const futura = localFont({
+  src: [
+    {
+      path: '../../public/fonts/Poppins-Bold.otf',
+      weight: '400'
+    },
+
+  ],
+  variable: '--font-futura'
+})
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -11,9 +23,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html className='scroll-smooth' lang="en">
+    <html className={` scroll-smooth `} lang="en">
      
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} `}>{children}</body>
     </html>
   )
 }
