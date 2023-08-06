@@ -1,20 +1,12 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 import Navbar from '@/components/navbar/page'
 import localFont from 'next/font/local'
 
-const futura = localFont({
-  src: [
-    {
-      path: '../../public/fonts/Poppins-Bold.otf',
-      weight: '400'
-    },
-
-  ],
-  variable: '--font-futura'
-})
 
 const inter = Inter({ subsets: ['latin'] })
+const montserrat = Montserrat({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',
@@ -25,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html className={` scroll-smooth `} lang="en">
      
-      <body className={`${inter.className} `}>{children}</body>
+      <body className={`${montserrat.className} `}>{children}</body>
     </html>
   )
 }
