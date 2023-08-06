@@ -16,11 +16,8 @@ const Home = () => {
                     onClick={console.log("btn clicked")}>
                     BUTTON
                 </button>
-                <IoIosArrowForward className=" m-auto w-full"/>
-            </div>
-      
-               
-
+                <IoIosArrowForward className=" m-auto h-full"/>
+            </div>      
 
             <div className=" h-[30rem] w-[30rem] absolute left-48 top-1/4 ">
                 <Image
