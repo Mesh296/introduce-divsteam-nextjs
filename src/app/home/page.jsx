@@ -3,14 +3,14 @@ import { IoIosArrowForward } from 'react-icons/io';
 
 const Home = () => {
     return (
-        <div className=" h-screen bg-white relative" id="home">
+        <div className=" h-screen bg-gradient-to-b from-[#F8F8F8] to-white relative" id="home">
             <div className=" text-7xl font-extrabold absolute left-32 top-[18rem] z-10">
                 <h1>LOREM</h1>
                 <div className=" text-base font-extralight absolute w-[30rem]">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                 </div>
             </div>
-            <div className="flex justify-between absolute cursor-pointer text-white px-6 py-2 rounded-lg bg-[#4481EE] hover:bg-[#376bc6] duration-200 left-32 top-[30rem] z-10">
+            <div className="flex justify-between absolute cursor-pointer text-white px-6 py-2 rounded-lg bg-[#484848] hover:bg-[#606060] duration-200 left-32 top-[30rem] z-10">
                 <button 
                     className=" pr-2 font-semibold"
                     onClick={console.log("btn clicked")}>
