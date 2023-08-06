@@ -1,8 +1,10 @@
+import AnimatedText from "@/components/AnimatedText";
+
 const About = () => {
-    return(
-        <div className=" h-screen bg-gradient-to-b from-[#F8F8F8] to-white flex items-center justify-center" id="about">
-            about us
-        </div>
+    return (
+        <main id='about'>
+            <AnimatedText text="About us We have dedicate member " />
+        </main>
     )
 }
 
