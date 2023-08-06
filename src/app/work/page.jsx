@@ -1,6 +1,6 @@
 const Work = () => {
     return(
-        <div className=" h-screen bg-yellow-200 flex items-center justify-center" id="work">
+        <div className=" h-screen bg-gradient-to-b from-[#F8F8F8] to-white flex items-center justify-center" id="work">
             our works
         </div>
     )
