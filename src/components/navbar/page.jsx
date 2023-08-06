@@ -34,17 +34,22 @@ const Navbar = () => {
 
                     <div className=" mr-10">
                         <ul className="flex flex-row space-x-6">
-                            <li className=" rounded-3xl text-black hover:text-white hover:bg-[#4481EE] duration-200 py-2 cursor-pointer"
+                            <li className=" rounded-md text-black hover:text-white hover:bg-[#4481EE] duration-200 py-2 cursor-pointer"
                                 onClick={console.log("Home")}>
                                 <Link className="  px-6 py-2" href="#home" scroll={true}>Home</Link>
                             </li>
 
-                            <li className=" rounded-3xl text-black hover:text-white hover:bg-[#4481EE] duration-200 py-2 cursor-pointer"
-                                onClick={console.log("About")}>
-                                <Link className="px-6 py-2" href="#about" scroll={true}>About</Link>
+                            <li className=" rounded-md text-black hover:text-white hover:bg-[#4481EE] duration-200 py-2 cursor-pointer"
+                                onClick={console.log("Services")}>
+                                <Link className="  px-6 py-2" href="#services" scroll={true}>Services</Link>
                             </li>
 
-                            <li className=" rounded-3xl text-black hover:text-white hover:bg-[#4481EE] duration-200 py-2 cursor-pointer"
+                            <li className=" rounded-md text-black hover:text-white hover:bg-[#4481EE] duration-200 py-2 cursor-pointer"
+                                onClick={console.log("About")}>
+                                <Link className="px-6 py-2" href="#about" scroll={true}>About us</Link>
+                            </li>
+
+                            <li className=" rounded-md text-black hover:text-white hover:bg-[#4481EE] duration-200 py-2 cursor-pointer"
                                 onClick={console.log("Work")}>
                                 <Link className="px-6 py-2" href="#work" scroll={true}>Work</Link>
                             </li>
