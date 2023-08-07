@@ -8,7 +8,7 @@ import { FaVk } from 'react-icons/fa'
 
 function Footer() {
   return (
-    <div className=' bg-fuchsia-100 h-/2 w-full flex justify-around items-start p-20 '>
+    <div className='bg-gradient-to-b from-[#F8F8F8] to-white h-/2 w-full flex justify-around items-start p-20 '>
       <div className="p-5 flex-col justify-center items-center text-center">
 
         <p className="text-gray-800 font-bold text-2xl pb-4 ">
